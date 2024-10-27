@@ -1,9 +1,3 @@
-fecha: 2024-10-24
-dominios spammers: aprox 1870
-query: 
-SELECT DISTINCT REGEXP_SUBSTR(texto, 'https?://([^/]+)') AS dominio FROM logueo
-where texto like 'LOG:Comentario | Recaptcha fallido%';
-
 0daymusic.org
 1001cruise.ru
 12.kraken.gl
